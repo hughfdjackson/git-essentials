@@ -20,7 +20,7 @@ Here, we're creating an empty git repository that doesn't contain anything - all
 
 That means that the subsequent `git commit -m 'initial commit'` records the creation of those files - with all of their present content - in git.  The `-m` just lets you put a short one-line message with your commit - for posterity, and the good of those who have to try to find out why you've done what you have. 
 
-If you're using github, you probably want to create a repository (unless it's private), and push up your new repo - so there's a *remote* copy on github, and a local one too. 
+If you're using github, you probably want to create a repository (unless it's the contents of your codebase is private), and push up your new repo - so there's a *remote* copy on github, and a local one too. 
 
 After [creating a respository on github](https://help.github.com/articles/create-a-repo/) (and do not create a readme..), execute the following to set up the github repository as one of your remote repositories. 
 
