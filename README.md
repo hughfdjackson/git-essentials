@@ -86,6 +86,28 @@ Once you've got some new commits locally, you can share them in the github repo 
 git push
 ```
 
+## Taging releases
+
+```bash
+git tag
+```
+To list available tags
+
+You can create tags in two ways: 
+
+### Annotated tags
+
+```bash
+git tag -a v1.0 -m 'version 1.0'
+```
+
+### Lightweight tags
+
+```bash
+git tag v1.1
+```
+To create a lightweight tag we don't supply the -a -m options. It is common to append the tag with `lw` ie `git tag v1.1-lw` but it is not necessary
+
 ## Pulling changes from github
 
 If someone else has made updates to the github project (or you have from another machine..), you can get up to date by running: 
